@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.bridgelabz.extentreport.ExtentReportListener"></listener>
+    </listeners>
+
+    <test name="BMS Page Object Model Test Suite">
+        <classes>
+            <class name="com.bridgelabz.page.LoginPageTest"/>
+            <class name="com.bridgelabz.page.HomePageTest"/>
+            <class name="com.bridgelabz.page.SearchMovieTest"/>
+            <class name="com.bridgelabz.page.RateMovieTest"> </class>
+        </classes>
+    </test>
+</suite>
